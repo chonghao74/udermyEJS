@@ -1,0 +1,16 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+table, tr, th, td {
+  border-collapse: collapse;
+  border: 1px solid black;
+  padding: 5px;
+}
+
+th {
+  width: 100px;
+  text-align: center;
+}/*# sourceMappingURL=someone.css.map */

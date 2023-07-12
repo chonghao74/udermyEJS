@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="zh-Hant">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="robots" content="" />
+    <link rel="icon" sizes="192x192" href="" />
+    <link rel="stylesheet" href="/style/someone.css" />
+    <title>Someone</title>
+  </head>
+  <body>
+    <label for="">EJS 取的 routing for pattern</label>
+    <section>
+      <h1>My name is <%= who %></h1>
+    </section>
+    <br />
+    <label for="">Loop</label>
+    <section>
+      <table>
+        <tr>
+          <th>Language</th>
+          <th>Rating</th>
+        </tr>
+        <% code_language.forEach(object =>{ %>
+        <tr>
+          <td><%= object.name %></td>
+          <td><%= object.rating %></td>
+        </tr>
+        <% }) %>
+      </table>
+    </section>
+  </body>
+  <noscript>
+    <label for="">此瀏覽器不支援JS</label>
+  </noscript>
+</html>
