@@ -4,6 +4,7 @@ const path = require("path");
 
 //middleware
 app.use(express.static("public"));
+//調整使用 ejs 不需要副檔名
 app.set("view engine", "ejs");
 
 app.get("/", (req, res) => {
