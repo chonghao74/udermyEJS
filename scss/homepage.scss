@@ -5,3 +5,15 @@ body{
     background-color: gainsboro;
 }
 
+footer{
+    height: 100px;
+    width: 100%;
+    background-color: red;
+    position: fixed;
+    bottom: 0;
+    div{
+        display: flex;
+        justify-content: center;
+    }
+}
+
