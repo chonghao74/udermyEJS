@@ -6,4 +6,16 @@
 
 body {
   background-color: gainsboro;
+}
+
+footer {
+  height: 100px;
+  width: 100%;
+  background-color: red;
+  position: fixed;
+  bottom: 0;
+}
+footer div {
+  display: flex;
+  justify-content: center;
 }/*# sourceMappingURL=homepage.css.map */

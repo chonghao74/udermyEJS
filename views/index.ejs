@@ -15,6 +15,30 @@
     <header>
       <H1>This is my Home Page.</H1>
     </header>
+    <main>
+      <label for="">EJS %用法1</label><br />
+      <section>
+        <% for(let i=0; i< 10 ; i++){ %>
+        <label for="">shoW</label>
+        <% } %>
+      </section>
+      <label for="">EJS %=用法2-1</label><br />
+      <section>
+        <% for(let i=0; i< 10 ; i++){ %>
+        <label for="">shoW <%= i %></label>
+        <% } %>
+      </section>
+      <label for="">EJS %=用法2-2</label><br />
+      <section>
+        <% for(let i=0; i< ejs_2.length ; i++){ %>
+        <label for=""><%= ejs_2[] %></label><br>
+        <% } %>
+      </section>
+      <label for="">EJS %-用法3</label><br />
+      <section><%- ejs_3 %></section>
+      <label for="">EJS %-include 用法4</label><br />
+      <section><%- include("partials/footerview") %></section>
+    </main>
   </body>
   <noscript>
     <label for="">此瀏覽器不支援JS</label>
